@@ -64,7 +64,7 @@ The script will detect that you don't have cake and download it. It will then ru
 Congratulations, you've run you first Cake script!
 
 ###4. Bonus points! - run the tests
-The script is a fairly bare-bones implementation. But extending it is easy. For instance to run the extensive unit tests for the awesome application you need to add a test target:
+The script is a fairly bare-bones implementation. But extending it is easy. For instance to run the extensive unit tests for the awesome application you need to add a test target to cake.build:
 ```CSharp
 Task("Run-Unit-Tests")
     .IsDependentOn("Build")
